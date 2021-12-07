@@ -1,0 +1,136 @@
+body{
+	background-image: url("pozadina.png");
+	background-repeat: no-repeat;
+	  background-size: cover;
+}
+.naslov{
+	height: 30px;
+	width: 400px;
+	margin-left: 150px;
+	font-size: 80px;
+	color: #03f4fc;
+
+}
+#meni{
+	float: right;
+	height: 67px;
+	width: 500px;
+	list-style: none;
+	margin-top: 25px;
+	margin-right: 150px;
+}
+.meni{
+	float: left;
+	padding: 20px;
+	font-size: 25px;
+	border-radius: 10px;
+	transition: transform .2s;
+	text-decoration: none;
+}
+.meni:hover{
+	background-color: #03f4fc;
+	transform: scale(1.2);
+	text-decoration: none;
+}
+.meni a{
+	text-decoration: none;
+  	color:black;
+}
+.meni:hover a{
+	background-color: #03f4fc;
+	transform: scale(1.2);
+	text-decoration: none;
+}
+#gornji{
+	margin-left: 80px;
+	margin-top: 70px;
+}
+#donji{
+	margin-top: 100px;
+}
+.paragraf{
+	width: 480px;
+	height: 300px;
+	font-size: 22px;
+	padding: 10px;
+	color: #effa8e;
+	font-weight: 900;
+}
+#slika1{
+	float: right;
+	margin-top: 170px;
+	margin-right: 300px;
+	
+}
+.slike:hover
+{
+	transform: scale(1.2);
+}
+.slike{
+	padding: 5px;
+	width: 500px;
+	height: 350px;
+	transition: transform .7s;
+	background-color: white;
+	border-radius: 20px;
+
+}
+#slika2{
+	margin-top: 200px;
+	margin-left: 100px;
+}
+.slike1{
+	width: 50px;
+	height: 50px;
+	padding: 3px;
+	background-color: white;
+	border-radius: 20px;
+	transition: transform .7s;
+}
+ .slike1:hover{
+ 	transform: scale(1.2);
+ }
+ #facebook{
+ 	margin-left: 500px;
+ 	margin-top: 100px;
+ }
+ #twitter{
+ 	margin-left: 350px;
+ 	margin-top: 100px;
+ }
+ #instagram{
+ 	margin-left: 200px;
+ 	margin-top: 100px;
+ }
+
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("slika3.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #34c6eb;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
